@@ -2,8 +2,8 @@ var Kahoot = require('kahoot.js');
 var client = new Kahoot;
 var NameGenerator = require('nodejs-randomnames');
 var randomName = NameGenerator.getRandomName();
-var game_pin = 6713680;
-var randomnumber = Math.floor(Math.random() * 3);
+var game_pin = 6039738;
+var randomnumber = Math.round(Math.random() * 3);
 
 console.log("Joining kahoot...  ");
 client.join(game_pin, randomName);
