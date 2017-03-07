@@ -15,7 +15,7 @@ If you want the bot to join a game you have to do the following:
 
 1. Open the index.js file and change the ```var game_pin = {your_game_pin}``` variable to the game pin you are using
 
-2. Open the cluster.js file and change the ```var amount = {amount of players to join}``` variable to the amount of players you want to join in the kahoot game
+2. Open the cluster.js file and change the ```var amount = {amount of players to join}``` variable to the amount of players you want to join
 
 3. Open your cmd and navigate to the kahoot directory and type ```node cluster.js```
 
