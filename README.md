@@ -17,7 +17,7 @@ If you want the bot to join a game you have to do the following:
 
 2. Open the cluster.js file and change the ```var amount = {amount of players to join}``` variable to the amount of players you want to join
 
-3. Open your cmd and navigate to the kahoot directory and type ```node cluster.js```
+3. Open your cmd or terminal and navigate to the kahoot directory and type ```node cluster.js```
 
 4. Wait a moment and the bots will join the game
 
