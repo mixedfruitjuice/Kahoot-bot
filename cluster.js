@@ -1,5 +1,6 @@
 var cluster = require('cluster');
-var amount = 20;
+var config = require("./config.json")
+var amount = config.clusterSize;
 
 if (cluster.isMaster) {
 
